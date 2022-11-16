@@ -1,0 +1,14 @@
+@use "../../styles/mixinBtn.scss" as *;
+
+.goHomeBtn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  @include buttonDarkBg;
+  border-radius: 0;
+  border-bottom-right-radius: 5px;
+
+  i {
+    color: white;
+  }
+}

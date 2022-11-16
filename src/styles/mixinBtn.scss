@@ -1,0 +1,7 @@
+@mixin buttonDarkBg {
+  background-color: var(--clr-dark);
+  color: white;
+  padding: 0.6rem;
+  border: 0;
+  border-radius: 5px;
+}

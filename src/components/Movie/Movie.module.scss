@@ -1,0 +1,58 @@
+.posterAndInfo {
+  display: flex;
+  gap: 12px;
+}
+
+.posterAndInfo > * {
+  flex-basis: 100%;
+}
+
+.imgDiv {
+  position: relative;
+  width: fit-content;
+  
+  .posterImg {
+    margin-bottom: 1rem;
+    height: 250px;
+    width: 167px;
+  }
+  .voteAverage {
+    font-size: 0.8rem;
+    position: absolute;
+    right: -15px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    width: 45px;
+    height: 45px;
+    padding: 0.2rem;
+    border-radius: 50%;
+    background-color: var(--clr-dark)
+  }
+}
+
+.movieInfoContainer {
+  p {
+    font-weight: 300;
+  }
+
+  span {
+    font-weight: 600;
+  }
+
+  .genres {
+    ul {
+      padding-left: 20px;
+
+      li {
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+.plot {
+  margin-top: 0.5rem;
+}

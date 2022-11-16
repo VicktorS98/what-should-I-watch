@@ -1,0 +1,33 @@
+.appContainer {
+  --padding-inline: 2rem;
+
+  padding: 3rem var(--padding-inline) 2rem;
+  min-height: 100vh;
+  background-color: var(--clr-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+
+@media (min-width: 600px) {
+  .appContainer {
+    --padding-inline: 4rem;
+  }
+}
+@media (min-width: 800px) {
+  .appContainer {
+    --padding-inline: 6rem;
+  }
+}
+@media (min-width: 900px) {
+  .appContainer {
+    --padding-inline: 8rem;
+  }
+}
+@media (min-width: 1050px) {
+  .appContainer {
+    --padding-inline: 15rem;
+  }
+}
